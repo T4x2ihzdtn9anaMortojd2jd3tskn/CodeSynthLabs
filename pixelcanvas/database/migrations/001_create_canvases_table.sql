@@ -1,0 +1,2 @@
+-- Create canvases table
+CREATE TABLE canvases (id SERIAL PRIMARY KEY, name VARCHAR(255) NOT NULL, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
